@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/Prion-Tech/telegram-bot-invoices-creation/compare/v1.0.3...v1.1.0) (2025-03-30)
+
+
+### Features
+
+* 1st version of the BOT ([fda88d5](https://github.com/Prion-Tech/telegram-bot-invoices-creation/commit/fda88d5f8778fd0b8fc150423ba33753a04404ee))
+
+
+### Bug Fixes
+
+* removing unnecessary commands from Dockerfile ([9cb90b1](https://github.com/Prion-Tech/telegram-bot-invoices-creation/commit/9cb90b14e56ba16868ff3bea80452ef701f27ef6))
+
 ## [1.0.3](https://github.com/Prion-Tech/telegram-bot-invoices-creation/compare/v1.0.2...v1.0.3) (2025-03-30)
 
 
