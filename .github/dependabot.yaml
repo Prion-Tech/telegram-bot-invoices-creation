@@ -1,0 +1,20 @@
+version: 2
+registries:
+  python-azure:
+    type: python-index
+    url: https://pkgs.dev.azure.com/granton/Andromeda/_packaging/PythonPackages/pypi/simple/
+    username: PAT
+    password: ${{secrets.DEVOPS_PACKAGES_PAT}}
+    replaces-base: true
+updates:
+  # Enable version updates for Docker
+  - package-ecosystem: "pip"
+    registries: "*"
+    insecure-external-code-execution: allow
+    # Look for a `Dockerfile` in the `root` directory
+    directory: "/app"
+    commit-message:
+      prefix: "fix"
+    # Check for updates once a week
+    schedule:
+      interval: "monthly"
