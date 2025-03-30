@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/Prion-Tech/telegram-bot-invoices-creation/compare/v1.0.0...v1.0.1) (2025-03-30)
+
+
+### Bug Fixes
+
+* ci transform from vars to secrests ([fdedd41](https://github.com/Prion-Tech/telegram-bot-invoices-creation/commit/fdedd41da4153783368fcee17af6fd50c5684fa2))
+
 ## 1.0.0 (2025-03-30)
 
 
