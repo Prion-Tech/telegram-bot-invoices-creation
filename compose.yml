@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  aquila-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "443:443"
+    environment:
+      BOT_TOKEN: ${BOT_TOKEN}
