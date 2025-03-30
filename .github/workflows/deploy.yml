@@ -52,5 +52,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.ACR_NAME }}/${{ github.event.repository.name }}:latest,${{ vars.ACR_NAME }}/${{ github.event.repository.name }}:${{ env.VERSION }}
+          tags: ${{ secrets.ACR_NAME }}/${{ github.event.repository.name }}:latest,${{ secrets.ACR_NAME }}/${{ github.event.repository.name }}:${{ env.VERSION }}
           labels: ${{ steps.meta.outputs.labels }}
