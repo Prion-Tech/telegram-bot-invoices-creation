@@ -1,10 +1,10 @@
 FROM python:3.12-slim
 
 # dependencis for MacOS
-RUN apt-get update
-RUN apt-get install -y gcc python3-dev
-RUN apt-get clean
-RUN rm -rf /var/lib/apt/lists/*
+#RUN apt-get update
+#RUN apt-get install -y gcc python3-dev
+#RUN apt-get clean
+#RUN rm -rf /var/lib/apt/lists/*
 
 RUN pip install --upgrade pip uv
 
